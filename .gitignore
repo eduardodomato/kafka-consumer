@@ -1,0 +1,186 @@
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Compiled Class files ###
+*.class
+
+### Log files ###
+*.log
+*.log.*
+logs/
+log/
+
+### Package Files ###
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Java ###
+*.class
+*.ctxt
+*.local
+*.diff
+*.patch
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+.hs_err_pid*
+*.o
+*.so
+
+### IDE - Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.loadpath
+.recommenders
+.externalToolBuilders/
+.cproject
+.autotools
+.buildpath
+.target
+.sts4-cache/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+### IDE - IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### IDE - NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IDE - VS Code ###
+.vscode/
+*.code-workspace
+.history/
+
+### Spring Boot ###
+HELP.md
+*.original
+spring-boot-*.log
+
+### Application Properties ###
+application-local.properties
+application-*.local.yml
+application-*.local.yaml
+*.local.properties
+
+### Environment Variables ###
+.env
+.env.local
+.env.*.local
+
+### Lombok ###
+lombok.config
+
+### OS ###
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+### Test ###
+.gradle/
+test-output/
+test-results/
+
+### Temporary files ###
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+### Coverage reports ###
+*.lcov
+.nyc_output/
+coverage/
+*.coverage
+.coveragerc
+htmlcov/
+
+### Application specific ###
+kafka-consumer-*.log
+application-*.log
